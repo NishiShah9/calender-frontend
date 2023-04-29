@@ -1,0 +1,105 @@
+.calendar-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+  max-height: 100px;
+}
+
+td {
+  border: 1px solid;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.red-text {
+  color: red;
+}
+
+.yellow-text {
+  color: rgb(201, 201, 26);
+}
+
+.purple-text {
+  color: purple;
+}
+
+.green-text {
+  color: green;
+}
+
+.container {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  padding: "20px";
+}
+
+.date-content {
+  cursor: pointer;
+}
+
+.button-p {
+  background-color: "#fff";
+  border: "1px solid #ccc";
+  border-radius: "4px";
+  color: "#555";
+  font-size: "16px";
+  font-weight: "bold";
+  margin: "0 10px";
+  padding: "10px";
+}
+
+.year {
+  font-size: "24px";
+  font-weight: "bold";
+  margin: "0 10px";
+}
+
+.container {
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.title {
+  padding: 20px;
+}
+
+.container-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.year-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.selected-underline {
+  text-decoration: underline solid 50%;
+}
